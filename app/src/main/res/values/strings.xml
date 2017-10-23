@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BikeWise</string>
+    <string name="enter_incident_id" description="Search bar field hint">Enter Incident Id</string>
+    <string name="search" description="Search bar search button text">Search</string>
+    <string name="close" description="Search bar close button text">Close</string>
+    <string name="invalid_id_number" description="Invalid id number in search">Please input a valid number</string>
+    <string name="no_title" description="Default display if there is no title">&lt;&lt;No Title&gt;&gt;</string>
+    <string name="no_description" description="Default display if there is no description">&lt;&lt;No Description&gt;&gt;</string>
+    <string name="search_no_results" description="Toast text for a search with no results">No Search Results</string>
+    <string name="details_load_error" description="Toast text for opening details when no incident is available">Details Failed To Load</string>
+    <string name="occurred_at" description="Label for details occurred at">Occurred at: %1$s</string>
+    <string name="source_label" description="label for media source">Source: %1$s</string>
+</resources>

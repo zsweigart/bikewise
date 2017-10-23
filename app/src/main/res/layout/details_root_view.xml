@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zsweigart.bikewise.incidents.details.DetailsRootView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/spacing_1x">
+
+    <FrameLayout
+        android:id="@+id/details_media_container_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="@dimen/spacing_1x"
+        android:layout_marginEnd="@dimen/spacing_1x"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/details_title_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/details_media_container_container"
+        android:layout_toEndOf="@id/details_media_container_container">
+
+        <TextView
+            android:id="@+id/details_root_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DetailsTitle"/>
+
+        <TextView
+            android:id="@+id/details_root_occured_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DetailsText"/>
+
+        <TextView
+            android:id="@+id/details_root_address_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DetailsText"
+            android:layout_marginTop="@dimen/spacing_1x"/>
+
+        <TextView
+            android:id="@+id/details_root_description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/DetailsText"
+            android:layout_marginTop="@dimen/spacing_1x"/>
+    </LinearLayout>
+
+</com.zsweigart.bikewise.incidents.details.DetailsRootView>

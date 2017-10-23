@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/theft"
+    android:padding="@dimen/spacing_1x">
+
+    <TextView
+        android:id="@+id/theft_layout_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ListTitle"/>
+
+    <TextView
+        android:id="@+id/theft_layout_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/ListDiscription"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginTop="@dimen/spacing_1x"/>
+
+</LinearLayout>
